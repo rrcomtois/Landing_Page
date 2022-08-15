@@ -1,0 +1,158 @@
+body {
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    margin: 0px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+#milo {
+    width: 400px;
+    height: auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1F2937;
+    padding: 0px 80px;
+}
+
+.header-text {
+    color: #f9faf8;
+    font-size: 24px;
+}
+
+.header-links, .hero-s-text{
+    display: flex;
+    gap: 16px;
+    font-size: 18px;
+    color: #e5e7eb
+}
+
+#hero-text {
+    font-size: 45px;
+    font-weight: 1000;
+    color: #f9faf8;
+    font-family: sans-serif;
+}
+
+#signup {
+    background-color: #3882F6;
+    color: white;
+    font-weight: 700;
+    font-size: 15px;
+    padding: 6px 22px;
+    border-radius: 6px;
+    border-style: none;
+    width: 120px;
+    height: 32px;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937;
+    padding: 75px 200px;
+    gap: 40px;
+
+    /* border: 3px dotted yellow; */
+}
+
+.items {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 375px;
+    gap: 8px;
+    /* border: 3px dotted pink; */
+}
+
+.secondary {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 100px;
+}
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882F6;
+    color: #f9faf8;
+    height: 100px;
+    margin: 40px 200px;
+    padding: 0px 80px;
+}
+
+#banner-button {
+    background-color: #3882F6;
+    color: white;
+    font-weight: 700;
+    padding: 6px 22px;
+    border-radius: 6px;
+    border-color: #f9faf8;
+    width: 100px;
+    height: 30px;
+}
+
+.shots {
+    width: 225px;
+    height: auto;
+    border-width: 3px;
+    border-color: #3882F6;
+    border-style: solid;
+    border-radius: 6px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.action-text {
+    padding: 12px;
+}
+
+#news {
+    font-weight: 900;
+}
+
+#actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+#quote {
+    background-color: #e5e7eb;
+    font-size: 36px;
+    color: #1f2937;
+    padding: 32px;
+    font-style: italic;
+    text-align: center;
+}
+
+#sec-title {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 850;
+    padding: 32px;
+}
+
+.footer {
+    background-color: #1f2937;
+    color: #e5e7eb;
+    padding: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 16px;
+}
